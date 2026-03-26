@@ -112,7 +112,7 @@ int main(void) {
    scanf("%d", &initial_base);
    printf("Input base you want your number to be translated to: ");
    scanf("%d", &output_base);
-   if ((int)initial_base < 2 || (int)initial_base > 30 || (int)output_base < 2 || (int)output_base > 30) {
+   if (initial_base < 2 || initial_base > 30 || output_base < 2 || output_base > 30) {
       printf("Unable to translate");
    }
    else {
